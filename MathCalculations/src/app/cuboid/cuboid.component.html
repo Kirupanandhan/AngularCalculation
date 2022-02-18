@@ -1,0 +1,16 @@
+<h2> Volume of cuboid </h2>
+    <div class="formelement">
+    cLength=<input type="text"[(ngModel)]="clength"> Meters <br/>
+    </div>
+    <div class="formelement">
+    cbreadth=<input type="text"[(ngModel)]="cbreadth"> Meters <br/>
+    </div>
+    <div class="formelement">
+    cheight=<input type="text"[(ngModel)]="cheight"> Meters <br/>
+    </div>
+    <div class="formelement">
+         <input type="button" (click)="onCalculateVolume()" value="calculate Volume"> <br/>
+    </div>
+    <div class="formelement">
+    volume=<input type="text" [value]="volume">Meter<sup>2</sup>
+    </div>
